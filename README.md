@@ -1,11 +1,18 @@
 # The Body Fragrances Backend
 
-This repository contains the PHP backend and admin panel for The Body Fragrances project.
+This repository contains the backend API and admin panel for The Body Fragrances mobile commerce system.
+
+## Project description
+
+The backend is built with PHP and MySQL and is designed to support product browsing, category management, order placement, news/offers, and payment flow tracking. It serves both:
+
+- Admin operations through the web dashboard
+- Android app integration through API endpoints in `services/`
 
 ## What this project includes
 
 - Admin dashboard for managing categories, products, news/offers, and orders
-- PHP API services used by the mobile app
+- PHP API services used by the Android frontend
 - Image upload folders for categories, products, and news
 
 ## Main entry points
